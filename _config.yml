@@ -10,4 +10,4 @@ baseurl: ""
 permalink: /blog/:year/:month/:day/:title/
 
 # 时区（避免文章日期显示错）
-timezone: Asia/Beijing
+timezone: Asia/Taipei

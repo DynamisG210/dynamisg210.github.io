@@ -1,0 +1,22 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+header img[alt="Logo"]{
+  max-width: 220px;
+  height: auto;
+  display: block;
+  margin: 12px 0 10px 0;
+}
+
+.site-nav{
+  margin: 6px 0 14px 0;
+  font-size: 14px;
+}
+.site-nav a{
+  text-decoration: none;
+}
+.site-nav a:hover{
+  text-decoration: underline;
+}

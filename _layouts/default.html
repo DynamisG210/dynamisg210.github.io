@@ -21,16 +21,6 @@
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
-        <nav class="site-nav">
-          <a href="{{ '/' | relative_url }}">Home</a>
-          ·
-          <a href="{{ '/blog/' | relative_url }}">Blog</a>
-          ·
-          <a href="{{ '/projects/' | relative_url }}">Projects</a>
-        </nav>
-        
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
-        
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
         {% if site.github.is_project_page %}

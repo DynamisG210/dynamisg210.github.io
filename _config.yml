@@ -1,15 +1,17 @@
-title: "Dynamis GTR"
-description: "AI / Projects / Notes"
-theme: jekyll-theme-cayman
+title: "DynamisG"
+description: "Something about me"
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+- jekyll-remote-theme
 
-# 站点设置（用户站点一般不用 baseurl）
+
 url: "https://dynamisg210.github.io"
 baseurl: ""
 
-# 博客链接更干净
+# 博客链接
 permalink: /blog/:year/:month/:day/:title/
 
-# 时区（避免文章日期显示错）
+# 时区
 timezone: Asia/Taipei
 
 future: true

@@ -2,7 +2,7 @@
 layout: page
 title: Home
 
-![Logo]({{ "/assets/img/logo.png" | relative_url }})
+![Logo]({{ "/assets/img/logo.jpg" | relative_url }})
 
 ---
 
